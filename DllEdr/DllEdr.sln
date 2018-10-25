@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdrTest", "EdrTest\EdrTest.vcxproj", "{38B92C2A-EB78-4E80-9C23-2ED3388FFF10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B9C27002-49DF-447A-BA8A-4C1467D9E82D} = {B9C27002-49DF-447A-BA8A-4C1467D9E82D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdrLib", "EdrLib\EdrLib.vcxproj", "{B9C27002-49DF-447A-BA8A-4C1467D9E82D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38B92C2A-EB78-4E80-9C23-2ED3388FFF10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38B92C2A-EB78-4E80-9C23-2ED3388FFF10}.Debug|Win32.Build.0 = Debug|Win32
+		{38B92C2A-EB78-4E80-9C23-2ED3388FFF10}.Release|Win32.ActiveCfg = Release|Win32
+		{38B92C2A-EB78-4E80-9C23-2ED3388FFF10}.Release|Win32.Build.0 = Release|Win32
+		{B9C27002-49DF-447A-BA8A-4C1467D9E82D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B9C27002-49DF-447A-BA8A-4C1467D9E82D}.Debug|Win32.Build.0 = Debug|Win32
+		{B9C27002-49DF-447A-BA8A-4C1467D9E82D}.Release|Win32.ActiveCfg = Release|Win32
+		{B9C27002-49DF-447A-BA8A-4C1467D9E82D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

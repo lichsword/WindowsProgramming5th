@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitLib", "BitLib\BitLib.vcxproj", "{465687AF-5EE3-4CB8-85E7-13A29124DCFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitTest", "BitTest\BitTest.vcxproj", "{49FD9678-FB73-4564-AD52-27AFEDF862ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{465687AF-5EE3-4CB8-85E7-13A29124DCFC} = {465687AF-5EE3-4CB8-85E7-13A29124DCFC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{465687AF-5EE3-4CB8-85E7-13A29124DCFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{465687AF-5EE3-4CB8-85E7-13A29124DCFC}.Debug|Win32.Build.0 = Debug|Win32
+		{465687AF-5EE3-4CB8-85E7-13A29124DCFC}.Release|Win32.ActiveCfg = Release|Win32
+		{465687AF-5EE3-4CB8-85E7-13A29124DCFC}.Release|Win32.Build.0 = Release|Win32
+		{49FD9678-FB73-4564-AD52-27AFEDF862ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49FD9678-FB73-4564-AD52-27AFEDF862ED}.Debug|Win32.Build.0 = Debug|Win32
+		{49FD9678-FB73-4564-AD52-27AFEDF862ED}.Release|Win32.ActiveCfg = Release|Win32
+		{49FD9678-FB73-4564-AD52-27AFEDF862ED}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
